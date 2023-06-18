@@ -1,11 +1,15 @@
 @media screen and (min-width: 428px) {
 .container {
-max-width: 320px;
+max-width: 294px;
     }
 }
 
 @media screen and (min-width: 768px) {
     .container {
-    max-width: 552px;
+    max-width: 582px;
+        }
+
+    .team-line  {
+width: calc((100% - 24) / 2);
         }
     }
