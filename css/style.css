@@ -805,11 +805,15 @@ color: #434455;
 
 /* services */
 
-/* .services {
-  padding-bottom: 120px;
+/* .services-container {
+  display: flex;
 } */
 
-/* .services-title {
+ .services {
+  padding-bottom: 120px;
+} 
+
+ .services-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -820,11 +824,11 @@ color: #434455;
   color: var(--brand-color);
   margin-top: 0;
   margin-bottom: 72px;
-} */
+} 
 
-/* .services-line {
+.services-line {
   background-color: var(--brand-color);
-} */
+} 
 
 /* team */
 
