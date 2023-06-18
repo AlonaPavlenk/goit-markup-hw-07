@@ -645,8 +645,8 @@ body {
   background-color: var(--brand-color);
   text-align: center;
   align-items: center;
-  padding-bottom: 188px;
-  padding-top: 188px;
+  padding-bottom: 112px;
+  padding-top: 112px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -664,7 +664,7 @@ body {
   margin-right: auto;
 }
 
-.hero-title {
+/* .hero-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
@@ -676,6 +676,18 @@ body {
   max-width: 496px;
   margin-left: auto;
   margin-right: auto;
+} */
+
+.hero-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #ffffff;
 }
 
 .hero-button {
@@ -752,11 +764,14 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--brand-color);
+  margin-top: 0;
+  margin-bottom: 8px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .strategy-icon-container {
-  
   justify-content: center;
   gap: 24px;
   width: 264px;
@@ -783,18 +798,18 @@ color: #434455;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
 /* services */
 
-.services {
+/* .services {
   padding-bottom: 120px;
-}
+} */
 
-.services-title {
+/* .services-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -805,11 +820,11 @@ color: #434455;
   color: var(--brand-color);
   margin-top: 0;
   margin-bottom: 72px;
-}
+} */
 
-.services-line {
+/* .services-line {
   background-color: var(--brand-color);
-}
+} */
 
 /* team */
 
