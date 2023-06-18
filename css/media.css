@@ -3,6 +3,7 @@
     max-width: 294px;
   }
 
+ /* customers */
 
 }
 
@@ -15,6 +16,12 @@
   .team-line {
    width: calc((100% - 24px) / 2);
   }
+
+  .team-list {
+    gap: 24px;
+  }
+
+   /* customers */
 
 }
 
@@ -32,6 +39,8 @@
   .team-list {
     flex-wrap: nowrap;
   }
+
+/* customers */
 }
 
   

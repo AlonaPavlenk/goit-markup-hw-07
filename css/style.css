@@ -901,12 +901,13 @@ overflow: hidden;
 
 .customers-soc-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
 }
 
 .customers-soc-item {
-width: calc((100% - 120px) / 6);
+width: calc((100% - 16px) / 2);
 height: 88px;
 }
 
