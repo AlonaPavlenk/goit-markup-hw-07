@@ -1,15 +1,37 @@
 @media screen and (min-width: 428px) {
-.container {
-max-width: 294px;
-    }
+  .container {
+    max-width: 294px;
+  }
+
+
 }
 
 @media screen and (min-width: 768px) {
+  /* team */
     .container {
     max-width: 582px;
-        }
+  }
 
-    .team-line  {
-width: calc((100% - 24) / 2);
-        }
-    }
+  .team-line {
+   width: calc((100% - 24px) / 2);
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1158px;
+  }
+
+  /* team */
+
+  .team-line {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .team-list {
+    flex-wrap: nowrap;
+  }
+}
+
+  
