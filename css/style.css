@@ -882,8 +882,8 @@ overflow: hidden;
 }
 
 .customers {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .customers-title {
@@ -903,11 +903,12 @@ overflow: hidden;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 24px;
+ column-gap: 16px;
+ row-gap: 72px;
 }
 
 .customers-soc-item {
-width: calc((100% - 16px) / 2);
+  width: calc((100% - 16px) / 2);
 height: 88px;
 }
 
