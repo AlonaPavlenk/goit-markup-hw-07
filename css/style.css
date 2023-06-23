@@ -146,6 +146,8 @@ body {
   flex-direction: column;
   justify-content: center;
   justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .menu-close-btn {
@@ -188,11 +190,15 @@ body {
   gap: 40px;
   margin-left: auto;
   margin-right: auto;
+  color: #2e2f42;
+  text-align: left;
+  align-items: flex-start;
 }
 
-.mob-menu-link:focus {
+.mob-menu-list:hover, .mob-menu-list:focus {
   color: #404bbf;
 }
+
 
 .mob-menu-adress-list {
   display: flex;
@@ -200,20 +206,20 @@ body {
   gap: 40px;
   margin-bottom: 48px;
   margin-top: 26px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mob-menu-adress-link {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 26px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #4d5ae5;
   margin-bottom: 40px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .mob-menu-email-link {
@@ -226,12 +232,12 @@ body {
   color: #434455;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 48px;
 }
 
 .mob-soc-list {
   display: flex;
   justify-content: center;
-  /* gap: 56px; */
 }
 
 .mob-soc-link {
@@ -383,8 +389,6 @@ body {
   width: 100%;
 }
 
-.footer-content {
-}
 
 .footer-container {
   margin-top: 0;
@@ -529,6 +533,7 @@ body {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   color: #ffffff;
+ margin-bottom: 16px;
 }
 
 ::placeholder {
