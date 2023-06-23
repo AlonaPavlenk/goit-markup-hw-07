@@ -190,12 +190,13 @@ body {
   gap: 40px;
   margin-left: auto;
   margin-right: auto;
-  color: #2e2f42;
+  color: #2E2F42;
   text-align: left;
   align-items: flex-start;
+  width: 100%;
 }
 
-.mob-menu-list:hover, .mob-menu-list:focus {
+.mob-menu-link:hover, .mob-menu-link:focus {
   color: #404bbf;
 }
 
@@ -208,6 +209,7 @@ body {
   margin-top: 26px;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
 }
 
 .mob-menu-adress-link {
@@ -220,6 +222,11 @@ body {
   text-transform: capitalize;
   color: #4d5ae5;
   margin-bottom: 40px;
+  width: 100%;
+}
+
+.mob-menu-email-link:focus {
+color: #404bbf;
 }
 
 .mob-menu-email-link {
@@ -233,6 +240,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 48px;
+  width: 100%;
 }
 
 .mob-soc-list {
@@ -252,7 +260,7 @@ body {
 }
 
 .mob-soc-link:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 
 .mob-soc-icon {
@@ -495,7 +503,8 @@ body {
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
-  justify-content:center
+  justify-content:center;
+  width: 100%;
 }
 
 .subscribe-title {
@@ -513,12 +522,17 @@ body {
   margin-right: auto;
 }
 
+.subscribe-lable {
+width: 100%;
+}
+
 .subscribe-form {
   display: flex;
   flex-direction: column;
   gap: 24px;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
 }
 
 .subscribe-input {
@@ -534,6 +548,7 @@ body {
   border-radius: 4px;
   color: #ffffff;
  margin-bottom: 16px;
+ width: 100%;
 }
 
 ::placeholder {
@@ -586,7 +601,9 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  width: 408px;
+ max-width: 392px;
+ width: 100%;
+  /* width: 408px; */
   min-height: 584px;
   background-color: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),

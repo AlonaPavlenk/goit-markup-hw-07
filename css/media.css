@@ -4,11 +4,12 @@
   }
 
   .mob-menu > .conteiner > {
-    max-width: 427px;
+    max-width: 353px;
+    align-items: center;
   }
 
-  .mob-menu-adress-list {
-    font-size: 36px;
+  .mob-menu :last-child {
+    max-width: 353px;
   }
 
   /* hero */
@@ -235,7 +236,7 @@
   .footer-name {
     margin-top: 0;
   }
-/* 
+  /* 
   .subscribe-box-form {
     display: flex;
     flex-direction: column;
@@ -244,9 +245,11 @@
 
   .subscribe-box {
     display: flex;
+    
   }
   .subscribe-title {
-    margin-left: 0;
+    margin-left: 72px;
+    padding: 0;
   }
 
   .subscribe-icon {
@@ -258,7 +261,12 @@
   }
 
   .subscribe-btn {
-    align-items: center;
+  }
+
+  .subscribe-input {
+    width: 264px;
+    margin-left: 72px;
+    padding: 0;
   }
 }
 
@@ -430,5 +438,9 @@
 
   .subscribe-btn {
     flex-direction: row;
+  }
+
+  .modal-close {
+    max-width: 408px;
   }
 }
