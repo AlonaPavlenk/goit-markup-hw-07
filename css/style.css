@@ -439,6 +439,7 @@ color: #404bbf;
   max-width: 264px;
   margin-left: auto;
   margin-right: auto;
+ justify-content: center;
 }
 
 .footer-name {
@@ -505,6 +506,8 @@ color: #404bbf;
   margin-right: auto;
   justify-content:center;
   width: 100%;
+ align-items: center;
+ flex-direction: column;
 }
 
 .subscribe-title {
@@ -825,12 +828,23 @@ width: 100%;
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/backgraund_images/hero_bg.jpg);
+    url(../images/backgraund_images/hero-bg-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   justify-content: center;
   max-width: 1440px;
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+.hero {
+  background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+  ), url(../images/backgraund_images/hero-bg-mob-2x.jpg);
+}
 }
 
 .hero-container {

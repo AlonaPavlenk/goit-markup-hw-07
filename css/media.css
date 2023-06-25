@@ -1,6 +1,6 @@
 @media screen and (min-width: 428px) {
   .container {
-    max-width: 427px;
+    max-width: 428px;
   }
 
   .mob-menu > .conteiner > {
@@ -15,7 +15,7 @@
   /* hero */
 
   .hero > .container {
-    max-width: 427px;
+    max-width: 428px;
   }
 
   .hero-title {
@@ -28,7 +28,7 @@
   /* strategy */
 
   .strategy > .container {
-    max-width: 427px;
+    max-width: 428px;
   }
 
   .strategy {
@@ -38,25 +38,24 @@
   /* customers */
 
   .customers > .container {
-    max-width: 427px;
+    max-width: 428px;
   }
 
   /* footer */
 
   .footer-content > .container {
-    max-width: 427px;
+    max-width: 428px;
   }
 
-  .list {
+  .footer-list .list {
     margin-left: auto;
     margin-right: auto;
     padding-left: 0;
   }
 
   .subscribe-input {
-    min-width: 320px;
-    flex-shrink: 1;
-  }
+  min-width: 320px;
+  } 
 
   .subscribe-box {
     min-width: 428px;
@@ -136,6 +135,29 @@
   .hero > .container {
     max-width: 767px;
   }
+
+  
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/backgraund_images/hero-bg-tab.jpg);
+ 
+  }
+
+  
+
+  @media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+.hero {
+  background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+  ), url(../images/backgraund_images/hero-bg-tab-2x.jpg);
+}
+}
 
   .hero-title {
     font-size: 56px;
@@ -234,6 +256,8 @@
 
   .subscribe-box {
     display: flex;
+    align-items: center;
+    flex-direction: row;
   }
   .subscribe-title {
     justify-content: left;
@@ -244,7 +268,7 @@
   }
 
   .subscribe-btn {
-    margin-top: 40px;
+    margin-top: 24px;
   }
 
   .subscribe-input {
@@ -307,6 +331,26 @@
 
   .hero > .container {
     max-width: 1158px;
+  }
+
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/backgraund_images/hero-bg.jpg);
+ 
+  }
+
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ), url(../images/backgraund_images/hero-bg-2x.jpg);
+  }
   }
 
   .hero-title {
@@ -430,6 +474,7 @@
 
   .subscribe-box {
     flex-wrap: nowrap;
+    
   }
 
   .subscribe-title {
@@ -440,5 +485,10 @@
     margin-left: 80px;
     min-width: 264px;
     margin-top: 0;
+    margin-bottom: 80px;
+  }
+
+  .subscribe-btn {
+    margin-bottom: 64px;
   }
 }
