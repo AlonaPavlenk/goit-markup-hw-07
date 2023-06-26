@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  max-width: 426px;
+  max-width: 428px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -46,6 +46,7 @@ body {
   /* margin-right: 76px; */
   margin-left: auto;
   padding: 24px 16px 22px;
+  width: 100%;
 }
 
 .link {
@@ -68,6 +69,7 @@ body {
 
 .header-link {
   display: none;
+  color: #404bbf;
 }
 
 .hdr-link::after {
@@ -80,6 +82,7 @@ body {
   border-radius: 2px;
   display: block;
   width: 100%;
+  color: #404bbf; 
 }
 
 .hdr-link::after:hover {
@@ -90,6 +93,9 @@ body {
 .header-link:focus {
   color: #404bbf;
 }
+/* .hdr-link:first-child a {
+  color: #404bbf;
+} */
 
 .page-heder {
   background-color: #ffffff;
@@ -200,6 +206,9 @@ body {
   color: #404bbf;
 }
 
+li:first-child a {
+  color: #404bbf;
+}
 
 .mob-menu-adress-list {
   display: flex;
@@ -349,7 +358,7 @@ color: #404bbf;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color:#2e2f42;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -394,7 +403,7 @@ color: #404bbf;
   background-color: var(--brand-color);
   padding-top: 100px;
   padding-bottom: 100px;
-  width: 100%;
+  /* width: 100%; */
 }
 
 
@@ -404,6 +413,7 @@ color: #404bbf;
   /* margin-right: 120px; */
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
 }
 
 .footer-link {
@@ -539,7 +549,6 @@ width: 100%;
 }
 
 .subscribe-input {
-  width: 264px;
   height: 40px;
   border: 1px solid #ffffff;
   background-color: transparent;
@@ -912,7 +921,7 @@ width: 100%;
 /* strategy */
 
 .strategy {
-  padding: 120px 0;
+  padding: 96px 0;
 }
 
 .strategy-container {
@@ -927,7 +936,7 @@ width: 100%;
 .strategy-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 72px;
 }
 
 /* 
@@ -1033,6 +1042,7 @@ color: #434455;
   flex-wrap: wrap;
   text-align: center;
   gap: 72px;
+  justify-content: center;
 }
 
 .team-title {
@@ -1045,12 +1055,16 @@ color: #434455;
   text-transform: capitalize;
   color: var(--brand-color);
   margin-top: 0;
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
 }
 
 .title-container {
   padding: 32px 16px;
+  max-width: 264px;
 }
+
+.title-container
+
 
 .image-title {
   font-family: "Roboto", sans-serif;
@@ -1072,7 +1086,8 @@ color: #434455;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   /* width: calc((100% - 72) / 4); */
-  width: 100%;
+min-width: 264px;
+
 }
 
 .team-text {
@@ -1188,7 +1203,7 @@ color: #434455;
 
 .imges {
   display: block;
-  width: 100%;
+  /* width: 100%; */
   max-width: 100%;
   height: auto;
 }
