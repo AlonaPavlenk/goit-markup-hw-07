@@ -85,17 +85,10 @@ body {
   color: #404bbf; 
 }
 
-.hdr-link::after:hover {
-  color: #404bbf;
-}
-
 .header-link:hover,
-.header-link:focus {
+.header-link:focus li{
   color: #404bbf;
 }
-/* .hdr-link:first-child a {
-  color: #404bbf;
-} */
 
 .page-heder {
   background-color: #ffffff;
@@ -203,10 +196,6 @@ body {
 }
 
 .mob-menu-link:hover, .mob-menu-link:focus {
-  color: #404bbf;
-}
-
-li:first-child a {
   color: #404bbf;
 }
 
@@ -510,14 +499,12 @@ color: #404bbf;
 
 .subscribe-box {
   display: flex;
-  /* margin-left: 80px; */
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
   justify-content:center;
-  width: 100%;
- align-items: center;
  flex-direction: column;
+ width: 100%;
 }
 
 .subscribe-title {
@@ -561,6 +548,7 @@ width: 100%;
   color: #ffffff;
  margin-bottom: 16px;
  width: 100%;
+ align-items: stretch;
 }
 
 ::placeholder {
@@ -569,7 +557,7 @@ width: 100%;
 
 .subscribe-btn {
   display: flex;
-  min-width: 165px;
+  max-width: 165px;
   height: 40px;
   justify-content: center;
   align-items: center;
@@ -583,6 +571,9 @@ width: 100%;
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px 24px;
 }
 
 .subscribe-icon {
@@ -678,8 +669,6 @@ width: 100%;
   border-color: #4d5ae5;
 }
 
-.modal-form {
-}
 
 .modal-box-lable {
   margin-bottom: 8px;
@@ -929,7 +918,6 @@ width: 100%;
 }
 
 .list-container {
-  /* width: calc((100% - 72px) / 4); */
   width: 100%;
 }
 
@@ -1130,7 +1118,7 @@ min-width: 264px;
 
 .team-soc-link:hover,
 .team-soc-link:focus {
-  background-color: #404bbf;
+  background-color:#31d0aa;
 }
 
 /* customers */

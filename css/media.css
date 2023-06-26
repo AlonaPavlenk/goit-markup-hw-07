@@ -60,7 +60,7 @@
   }
 
   .subscribe-box {
-    min-width: 428px;
+    max-width: 428px;
   }
 
   .subscribe-title {
@@ -93,6 +93,20 @@
     display: flex;
     gap: 40px;
   }
+
+  .header-list {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+  }
+
+  .header-link:hover,
+  .header-link:focus {
+    color: #404bbf;
+  }
+
   .hdr-link {
     color: #404bbf;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -123,10 +137,6 @@
   .list {
     margin-right: 0;
   }
-/*   
-.hdr-link:first-child a {
-    color: #404bbf;
-  } */
 
   .header-adress-link {
     display: flex;
@@ -238,6 +248,11 @@
     column-gap: 24px;
   }
 
+  .team-soc-link:hover,
+  .team-soc-link:focus {
+    background-color: #31d0aa;
+  }
+
   /* customers */
 
   .customers > .container {
@@ -260,29 +275,42 @@
 
   /* footer */
 
-  .conteiner {
+  .footer-content > .conteiner {
     padding-right: 0;
     padding-left: 0;
+    display: flex;
   }
 
   .footer-container {
-    margin-left: 108px;
+    max-width: 264px;
+    margin: 0;
     margin-right: 24px;
   }
 
   .footer-content {
+    max-width: 582px;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+  }
+
+  .footer-name {
+    align-items: start;
   }
   .footer-link {
     margin-left: 24px;
   }
 
   .subscribe-box {
+    max-width: 582px;
     display: flex;
     align-items: center;
     flex-direction: row;
+    margin-left: 0;
+    justify-content: left;
   }
+
   .subscribe-title {
     justify-content: left;
   }
@@ -314,9 +342,10 @@
     gap: 40px;
   }
 
-  /* li:first-child a {
+  .header-link:hover,
+  .header-link:focus li {
     color: #404bbf;
-  } */
+  }
 
   .header-link {
     font-weight: 500;
@@ -427,6 +456,7 @@
   }
 
   /* strategy */
+
   .strategy > .container {
     max-width: 1158px;
     margin-left: auto;
@@ -492,6 +522,11 @@
     flex-wrap: nowrap;
   }
 
+  .team-soc-link:hover,
+  .team-soc-link:focus {
+    background-color: #31d0aa;
+  }
+
   /* customers */
   .customers > .container {
     max-width: 1158px;
@@ -529,6 +564,8 @@
     margin-right: 120px;
     margin-left: 0;
     margin-right: 0;
+    max-width: 264px;
+    margin-right: 120px;
   }
 
   .footer-content {
@@ -543,6 +580,10 @@
 
   .footer-link {
     margin-bottom: 16px;
+  }
+
+  .footer-name {
+    margin-left: 0;
   }
 
   .subscribe-box {
