@@ -3,9 +3,10 @@
     max-width: 264px;
   }
 
-  .mob-menu > .conteiner > {
-    max-width: 353px;
+  .mob-menu>.container {
+    max-width: 428px;
     align-items: center;
+  justify-content: stretch;
   }
 
   /* hero */
@@ -71,6 +72,11 @@
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+  }
+
+  .mob-menu {
+    display:none;
+    
   }
 
   /* heder-navigation */
@@ -153,8 +159,13 @@
     color: #404bbf;
   }
 
+  .mob-menu>.container {
+    max-width: 767px;
+    display:none;
+  }
+
   .menu-open-btn {
-    display: none;
+display: none;
   }
 
   /* hero */
@@ -335,6 +346,11 @@
     max-width: 1158px;
   }
 
+  .mob-menu>.container {
+    max-width: 1158px;
+    display:none;
+  }
+
   /* heder-navigation */
 
   .header-list {
@@ -427,6 +443,8 @@
   .services > .container {
     max-width: 1158px;
     padding: 0 0 120px 0;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .services {
